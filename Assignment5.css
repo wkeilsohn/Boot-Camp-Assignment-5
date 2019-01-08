@@ -1,0 +1,52 @@
+/*Deal with the heading first*/
+h1{
+	text-align: center;
+	font-size: 60px;
+}
+
+/*Now to deal with the board*/
+table{
+	margin-left: auto;
+	margin-right: auto;
+	/*Centers the Table on the page*/
+}
+
+table th{
+	height: 100px;
+	width: 100px;
+	border-style: ridge;
+}
+
+#row1 th:nth-of-type(1){
+	border-left: none;
+	border-top: none;
+}
+
+#row1 th:nth-of-type(2){
+	border-top: none;
+}
+
+#row1 th:nth-of-type(3){
+	border-top: none;
+	border-right: none; 
+}
+
+#row3 th:nth-of-type(1){
+	border-left: none;
+	border-bottom: none;
+}
+
+#row3 th:nth-of-type(2){
+	border-bottom: none;
+}
+
+#row3 th:nth-of-type(3){
+	border-bottom: none;
+	border-right: none; 
+}
+#row2 th:nth-of-type(1){
+	border-left: none;
+}
+#row2 th:nth-of-type(3){
+	border-right: none;
+}
